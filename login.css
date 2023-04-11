@@ -1,8 +1,11 @@
 body {
-    background-image: url(images/login.png.png);
+    background-image: url('../images/loginbg-img.png');
     font-size: 1.6rem; 
     font-family: "Open Sans", sans-serif;
-    color: #2b3e51;
+    color: #fff;
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
   }
   h2 {
     font-weight: 300;
@@ -20,7 +23,6 @@ body {
     text-align: center;
     padding: 20px 0 0 0;
     border-radius: 38px;
-    border-color: #ff9100;
   }
   #login-form {
     padding: 0 60px;
@@ -39,7 +41,7 @@ body {
     border: none;
     display: block;
     
-    color: #000; 
+    color: white; 
     cursor: pointer;
     font-size: 18px;
     position: relative;
@@ -47,6 +49,8 @@ body {
     cursor: pointer;
     text-align: center; 
     border-radius: 38px;
+    background-color: transparent;
+    border: 2px solid #ff9100;
   }
  
 input[type="submit"] {
@@ -57,7 +61,6 @@ input[type="submit"] {
     cursor: pointer;
     font-size: 18px;
     position: relative;
-    display: inline-block;
     cursor: pointer;
     text-align: center; 
     border-radius: 38px;
@@ -72,4 +75,5 @@ input[type="submit"] {
     padding: 140px 0px;
     font-weight: 100;
     right: 15px;
+    color: #DCDCDC;
 }

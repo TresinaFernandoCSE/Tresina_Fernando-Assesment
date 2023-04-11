@@ -1,12 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login | Wizard House</title>
+    <link rel="stylesheet" href="css/login.css">
 </head>
-<body>
+<body> 
+    <div class="logo">
+        <img src="images/wizardlogo.png" width="125px">
+    </div> 
+    <div id="login-form-wrap">
+        <h2>LogIn</h2>
+        <form id="login-form">
+          <p>
+          <input type="email" id="email" name="email" placeholder="Your email " required><i class="validation">
+          </p>
+          <p>
+          <input type="password" id="password" name="password" placeholder="Your password" required><i class="validation">
+          </p>
+          <p>
+          <input type="submit" id="login" value="Login">
+          </p>
     
+          </form>
+       
+       </div>
+       <div class="copyright">
+        <small><i class="fa-regular fa-copyright"></i> All rights reserved.</small>
+       </div>
+       <script src="https://kit.fontawesome.com/b4ab770cfd.js" crossorigin="anonymous"></script> 
 </body>
+
 </html>
